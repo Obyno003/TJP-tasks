@@ -1,4 +1,4 @@
-body {
+* {
     text-align: center;
     font-weight: 400px;
 }
@@ -31,4 +31,5 @@ a {
 
 p {
     margin-bottom: 40px;
+    text-align: center;
 }
