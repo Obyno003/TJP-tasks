@@ -1,0 +1,72 @@
+main {
+    /* font-family: 'Courgette', cursive; */
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    font-size: 16px;
+}
+
+.top-div {
+    line-height: 8px;
+}
+
+.img-div img {
+    width: 60px;
+
+}
+
+.hr-homepage {
+    width: 440px;
+}
+.hr-about {
+    width: 560px;
+}
+
+.middle-div {
+    line-height: 24px;
+}
+
+h2 {
+    margin-bottom: 0;
+    font-size: 22px;
+}
+
+.ol-homepage {
+    list-style: lower-alpha;
+    margin-top: 8px;
+    display: inline-block;
+}
+
+.ol-about {
+    list-style: lower-roman;
+    margin-top: 8px;
+    display: inline-block;
+}
+
+li {
+    padding: 0 50px;
+    margin-right: 35px;
+    /* display: table; */
+}
+
+.bottom-div {
+    line-height: 6px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(21, 94, 239);
+}
+
+button {
+    color: white;
+    background-color: rgb(21, 94, 239);
+    border-radius: 50px;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 22px;
+    margin-bottom: 8px;
+    font-family: 'Merienda', cursive;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
