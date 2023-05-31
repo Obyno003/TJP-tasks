@@ -75,6 +75,7 @@ input, select {
     color: #797979;
     padding-top: 5px;
     padding-bottom: 5px;
+    padding-left: 10px;
 }
 
 button {
