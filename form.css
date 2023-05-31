@@ -22,7 +22,6 @@ h3 {
 form {
     margin-left: 2%;
     margin-bottom: 2%;
-    
 }
 
 label {
@@ -49,18 +48,13 @@ input, select {
     width: 35%;
     height: 48px;
 
-/* Stroke */
-
     border: 1px solid #828282;
     border-radius: 4px;
-    padding: 12px;
 }
 
 .input-gender {
     width: 2%;
     height: 2%;
-
-/* Stroke */
 
     border: 1px solid #828282;
 }
@@ -68,8 +62,6 @@ input, select {
 .input-tech {
     width: 2%;
     height: 2%;
-
-/* Stroke */
 
     border: 1px solid #828282;
     border-radius: 2px;
@@ -79,12 +71,10 @@ input, select {
     font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-size: 20px;
-/* identical to box height, or 150% */
-
-
-/* Name */
 
     color: #797979;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 button {
@@ -100,14 +90,11 @@ button {
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    /* identical to box height, or 150% */
-
 
     color: #FFFFFF;
 
     margin-left: 22%;
     margin-bottom: 2%;
-    
 }
 
 a {
