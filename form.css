@@ -44,12 +44,13 @@ div {
     margin-bottom: 4%;
 }
 
-input, select {
+input {
     width: 35%;
     height: 48px;
 
     border: 1px solid #828282;
     border-radius: 4px;
+    padding-left: 1px;
 }
 
 .input-gender {
@@ -75,7 +76,7 @@ select {
     color: #797979;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 10px;
+    padding-left: 6px;
 
     width: 35%;
     height: 48px;
@@ -84,7 +85,7 @@ select {
     border-radius: 4px;
 }
 
-::placeholder, select {
+::placeholder {
     font-family: 'Manrope', sans-serif;
     font-style: normal;
     font-size: 20px;
