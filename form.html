@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Form Page</title>
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Halant:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+            <link rel="stylesheet" href="form.css">
+        </head>
+        <body>
+            <Main>
+                    <form action="#" method="get">
+                        <h3>Contact Form</h3>
+
+                        <div>
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" id="name" placeholder="Enter your Name"> 
+                        </div>
+
+                       <div>
+                            <label for="username:">Username:</label>
+                            <input type="text" name="username" id="username" placeholder="Enter your username">
+                       </div>
+
+                        <div>
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" id="password" placeholder="Enter your password">
+                        </div>
+
+                        <div>
+                            <label for="password">Re-type Password:</label>
+                            <input type="password" name="password" id="password" placeholder="Enter your password">
+                        </div>
+
+                        <div class="div-gender">
+                            <label for="gender">Gender:</label>
+                            <input type="radio" name="gender" id="male" class="input-gender">
+                            <label for="gender" class="label-special">Male</label>
+                            <input type="radio" name="gender" id="female" class="input-gender">
+                            <label for="gender" class="label-special">Female</label>
+                        </div> 
+
+                        <div>
+                            <label for="tech-skills">Techie Skills:</label> 
+                            <input type="checkbox" name="tech-skills" id="html" class="input-tech">
+                            <label for="tech-skills" class="label-special">HTML</label>
+                            <input type="checkbox" name="tech-skills" id="css" class="input-tech">
+                            <label for="tech-skills" class="label-special">CSS</label>
+                            <input type="checkbox" name="tech-skills" id="javaScript" class="input-tech">
+                            <label for="tech-skills" class="label-special">JavaScript</label> 
+                        </div>
+
+                        <div>
+                            <label for="phone number">Phone Number:</label>
+                            <input type="tel" name="phone number" id="phone number" placeholder="Enter your phone number" pattern="[0-9]{3}-[0-9]{8}">
+                        </div>
+
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" placeholder="Enter your email">
+                        </div>
+
+                        <div class="div-college">
+                            <label for="college">College:</label>
+                            <select name="college" id="college">College:
+                                <option value="college">Select a college</option>
+                                <option value="college">Federal University of Technology, Owerri</option>
+                                <option value="college">Imo State University, Owerri</option>
+                                <option value="college">Lagos State University</option>
+                                <option value="college">University of Nigeria, Nsukka</option>
+                                <option value="college">University of Lagos</option>
+                            </select>
+                        </div>
+                    </form>
+                
+                <div class="div-button">
+                    <button>Submit</button>
+                    <p class="p-homepage">Go back to the <a href="index.html" title="Go to the Homepage">Homepage</a></p>
+                </div>
+            </main>
+        </body>
+    </html>
